@@ -47,11 +47,6 @@ public class RequestMethods extends Base {
 		httprequest.body(data);
 		//print json data in console
 		System.out.println(data);
-		loger.debug("This is a debug message");
-		loger.info("This is an info message");
-		loger.warn("This is a warning message");
-		loger.error("This is an error message");
-		loger.fatal("This is a fatal message");
 		//Now we can create a response object and provide a request type to provide a path parameter with the request.
 		try {
 			response= httprequest.request(Method.POST,name);
@@ -130,5 +125,15 @@ public class RequestMethods extends Base {
 		//Assert.assertEquals(response.getStatusLine(),this.isStatuslineDisplayed());
 		
 	}
-
+	public void getParameterRequest2(String name) {
+//		RestAssured.baseURI=prop.getProperty("baseuri");
+//		//Rest Assured is the request object.
+//		httprequest=RestAssured.given();
+//		//Now we can create a response object and provide a request type to provide a path parameter with the request.
+//		response= httprequest.request(Method.POST,name);
+//		//asString represents  whole response body converted into string format then we can able to see in console
+//		responsebody=response.getBody().asString();
+//		System.out.println(responsebody);
+//	}
+}
 }
