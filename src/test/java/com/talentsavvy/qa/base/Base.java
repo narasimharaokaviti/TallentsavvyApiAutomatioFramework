@@ -6,14 +6,18 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.WebDriver;
+
+
 import com.jayway.jsonpath.JsonPath;
 
 
 
-public class Base {
+public class Base extends ResponseActions {
 	
 	
-	public Properties prop;
+	
+	public static Properties prop;
 	public Properties dataprop;
 	public Base() {
 		
@@ -32,11 +36,7 @@ public class Base {
 	}
 	
 	
-	  public void json(String element) throws IOException {
-		  File jsonfile= new File(prop.getProperty("jsonpath"));
-		  Object data=JsonPath.read(jsonfile,"$."+element);
-	  
-	  }
+	 
 	 
 
 }

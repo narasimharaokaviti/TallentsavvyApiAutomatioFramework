@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-09T11:32:06 IST" name="Default suite" finished-at="2023-04-09T11:32:08 IST" duration-ms="2159">
+  <suite started-at="2023-04-18T15:42:24 IST" name="Default suite" finished-at="2023-04-18T15:42:28 IST" duration-ms="4100">
     <groups>
     </groups>
-    <test started-at="2023-04-09T11:32:06 IST" name="Default test" finished-at="2023-04-09T11:32:08 IST" duration-ms="2159">
-      <class name="com.talentsavvy.qa.test.Atest">
-        <test-method signature="test()[pri:0, instance:com.talentsavvy.qa.test.Atest@149e0f5d]" started-at="2023-04-09T11:32:06 IST" name="test" finished-at="2023-04-09T11:32:08 IST" duration-ms="1897" status="PASS">
+    <test started-at="2023-04-18T15:42:24 IST" name="Default test" finished-at="2023-04-18T15:42:28 IST" duration-ms="4100">
+      <class name="com.talentsavvy.qa.test.ApiTestCases">
+        <test-method signature="PostparameterRequest()[pri:0, instance:com.talentsavvy.qa.test.ApiTestCases@35ef1869]" started-at="2023-04-18T15:42:24 IST" name="PostparameterRequest" finished-at="2023-04-18T15:42:27 IST" duration-ms="2449" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.talentsavvy.qa.test.Atest -->
+        </test-method> <!-- PostparameterRequest -->
+        <test-method signature="verifyCreateUserApiTest()[pri:0, instance:com.talentsavvy.qa.test.ApiTestCases@35ef1869]" started-at="2023-04-18T15:42:27 IST" name="verifyCreateUserApiTest" description="This testcase verifies creata a user" finished-at="2023-04-18T15:42:27 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserApiTest -->
+        <test-method signature="verifyGetUserAPiTest()[pri:1, instance:com.talentsavvy.qa.test.ApiTestCases@35ef1869]" started-at="2023-04-18T15:42:27 IST" name="verifyGetUserAPiTest" description="This testcase verifies creata a user" finished-at="2023-04-18T15:42:27 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserAPiTest -->
+        <test-method signature="verifyUpdateUserApiTest()[pri:2, instance:com.talentsavvy.qa.test.ApiTestCases@35ef1869]" started-at="2023-04-18T15:42:27 IST" name="verifyUpdateUserApiTest" description="This testcase verifies creata a user" finished-at="2023-04-18T15:42:28 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateUserApiTest -->
+        <test-method signature="verifyDeleteUserApiTest()[pri:3, instance:com.talentsavvy.qa.test.ApiTestCases@35ef1869]" started-at="2023-04-18T15:42:28 IST" name="verifyDeleteUserApiTest" description="This testcase verifies creata a user" finished-at="2023-04-18T15:42:28 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteUserApiTest -->
+      </class> <!-- com.talentsavvy.qa.test.ApiTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

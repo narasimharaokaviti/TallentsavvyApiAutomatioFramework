@@ -11,7 +11,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 
-public class Itestlistners extends Login implements ITestListener {
+
+public class Itestlistners extends  ApiTestCases implements ITestListener {
 	ExtentSparkReporter htmlReporter; 
 	ExtentReports extent;
 	ExtentTest test;

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.talentsavvy.qa.test.Atest">
+      <class name="com.talentsavvy.qa.test.ApiTestCases">
         <methods>
-          <include name="test"/>
+          <include name="verifyCreateUserApiTest"/>
         </methods>
-      </class> <!-- com.talentsavvy.qa.test.Atest -->
+      </class> <!-- com.talentsavvy.qa.test.ApiTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
