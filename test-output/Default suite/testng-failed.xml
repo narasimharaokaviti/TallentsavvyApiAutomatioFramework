@@ -5,7 +5,9 @@
     <classes>
       <class name="com.talentsavvy.qa.test.ApiTestCases">
         <methods>
-          <include name="verifyCreateUserApiTest"/>
+          <include name="verifyGetPersonsAPiTest"/>
+          <include name="verifyGettenantssAPiTest"/>
+          <include name="verifyGetRolesAPiTest"/>
         </methods>
       </class> <!-- com.talentsavvy.qa.test.ApiTestCases -->
     </classes>

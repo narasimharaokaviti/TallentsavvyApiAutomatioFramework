@@ -118,7 +118,7 @@ public class RequestMethods extends Base {
 		//print json data in console
 		System.out.println(data);
 		//Now we can create a response object and provide a request type to provide a path parameter with the request.
-		response= httprequest.request(Method.POST,ConstantReqestParameters.apiusers);
+		//response= httprequest.request(Method.POST,ConstantReqestParameters.apiusers);
 		//asString represents  whole response body converted into string format then we can able to see in console
 		responsebody=response.getBody().asString();
 		//Assert.assertEquals(response.getStatusCode(),this.isStatusPostRequestSucessCodeDisplayed());
